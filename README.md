@@ -6,7 +6,7 @@ Automatically increase the version number
 调用格式：python main.py [directory] [number]
 
 比如（ep）:
-python mian.py e:\html  2018-909
+python mian.py e:\html  20180609
 
 注意事项 
 
