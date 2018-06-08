@@ -1,8 +1,5 @@
-# html_increase_number
-Automatically increase the version number
-
-功能：为html 文件的js 和css 增加版本号，版本号可以自由指定
-
+Automatically increase the version number,为html 文件的js 和css 增加版本号，版本号可以自由指定
+ 
 调用格式：
 
 python main.py [directory] [number]
