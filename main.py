@@ -12,10 +12,10 @@ def get_file_extension(path):
 
 # recursively extract all files in the changed directory
 def get_all_file(path):
-    all_file_list = [];
+    all_file_list = []
 
     # Allowed extension
-    alllow_filee_xtension = ['.html', '.htm', '.shtml'];
+    alllow_filee_xtension = ['.html', '.htm', '.shtml']
 
     # recursive extraction of all paths of a file
     for root, dirs, files in os.walk(path):
