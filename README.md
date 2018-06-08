@@ -3,9 +3,12 @@ Automatically increase the version number
 
 功能：为html 文件的js 和css 增加版本号，版本号可以自由指定
 
-调用格式：python main.py [directory] [number]
+调用格式：
+
+python main.py [directory] [number]
 
 比如（ep）:
+
 python mian.py e:\html  20180609
 
 注意事项 
