@@ -8,7 +8,7 @@ python main.py [directory] [number]
 
 python mian.py e:\html  20180609
 
-注意事项 
+注意事项: 
 
 1： python 开发版本为2.7
 
