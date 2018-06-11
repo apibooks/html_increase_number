@@ -38,9 +38,9 @@ def add_version_number(path, number):
         out = re.sub(pattern_css, replace_css, content)
 
         # replace javascript
-        pattern_css = '<script src="(.*?)\.js(.*?)"'
-        replace_css = r'<script src="\1.js?v=%s"' % (number)
-        out = re.sub(pattern_css, replace_css, out)
+        pattern_js = '<script src="(.*?)\.js(.*?)"'
+        replace_js = r'<script src="\1.js?v=%s"' % (number)
+        out = re.sub(pattern_js, replace_js, out)
 
         # save file
         hand.seek(0)
